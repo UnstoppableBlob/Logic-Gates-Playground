@@ -1,0 +1,56 @@
+// [
+//     { id: 1, x: 50, y: 50, gateType: "INPUT_HIGH" },
+//     { id: 2, x: 50, y: 200, gateType: "INPUT_HIGH" },
+//     { id: 3, x: 388.953125, y: 80, gateType: "AND" },
+//     { id: 4, x: 216.453125, y: 199, gateType: "NOT" },
+//     { id: 5, x: 544.046875, y: 113, gateType: "OR" },
+//     { id: 6, x: 715.1328125, y: 72, gateType: "OUTPUT" },
+//     { id: 1736821400607, x: 220.5859375, y: 50, gateType: "SPLITTER" },
+//   ];
+
+
+// [
+//     {
+//       from: 3,
+//       to: 5,
+//       fromPoint: { type: "output", index: 0 },
+//       toPoint: { type: "input", index: 0 },
+//     },
+//     {
+//       from: 4,
+//       to: 5,
+//       fromPoint: { type: "output", index: 0 },
+//       toPoint: { type: "input", index: 1 },
+//     },
+//     {
+//       from: 5,
+//       to: 6,
+//       fromPoint: { type: "output", index: 0 },
+//       toPoint: { type: "input", index: 0 },
+//     },
+//     {
+//       from: 2,
+//       to: 4,
+//       fromPoint: { type: "output", index: 0 },
+//       toPoint: { type: "input", index: 0 },
+//     },
+//     {
+//       from: 1,
+//       to: 1736821400607,
+//       fromPoint: { type: "output", index: 0 },
+//       toPoint: { type: "input", index: 0 },
+//     },
+//     {
+//       from: 1736821400607,
+//       to: 3,
+//       fromPoint: { type: "output", index: 1 },
+//       toPoint: { type: "input", index: 1 },
+//     },
+//     {
+//       from: 1736821400607,
+//       to: 3,
+//       fromPoint: { type: "output", index: 0 },
+//       toPoint: { type: "input", index: 0 },
+//     },
+//   ];
+  
